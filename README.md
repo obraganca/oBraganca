@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Thayllon Bragança — superfície 3D de uma função objetivo com a trajetória de um Iterated Local Search" width="100%">
+  <img src="https://raw.githubusercontent.com/oBraganca/oBraganca/main/assets/header.svg" alt="Thayllon Bragança — superfície 3D de uma função objetivo com a trajetória de um Iterated Local Search" width="100%">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ struct Thayllon {
 ## 🔥 Em destaque
 
 <p align="center">
-  <img src="./assets/opthyrrigated.svg" alt="optHyrrigated — ILS+RVND atinge o ótimo em soja (7,9 s), milho (7,4 s) e algodão (13,6 s) e fica a 0,08% do ótimo na cana-de-açúcar, com 540 dias (158,5 s)" width="100%">
+  <img src="https://raw.githubusercontent.com/oBraganca/oBraganca/main/assets/opthyrrigated.svg" alt="optHyrrigated — ILS+RVND atinge o ótimo em soja (7,9 s), milho (7,4 s) e algodão (13,6 s) e fica a 0,08% do ótimo na cana-de-açúcar, com 540 dias (158,5 s)" width="100%">
 </p>
 
 - 📄 **Aplicação do ILS-RVND para o Problema de Irrigação utilizando Pivô Central** — LVIII SBPO, 2026.
