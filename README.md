@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://obraganca.github.io/curriculum/"><img src="https://img.shields.io/badge/Currículo-f97316?style=for-the-badge&logo=readme&logoColor=white" alt="Currículo"></a>
-  <a href="https://www.linkedin.com/in/thayllonbraganca/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:thayllonbraganca@gmail.com"><img src="https://img.shields.io/badge/E--mail-e11d74?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
-  <img src="https://img.shields.io/badge/Aberto_a_oportunidades-10b981?style=for-the-badge" alt="Aberto a oportunidades">
+  <a href="https://obraganca.github.io/curriculum/"><img src="https://img.shields.io/badge/Currículo-b4501c?style=for-the-badge&logo=readme&logoColor=white" alt="Currículo"></a>
+  <a href="https://www.linkedin.com/in/thayllonbraganca/"><img src="https://img.shields.io/badge/LinkedIn-1d6b67?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:thayllonbraganca@gmail.com"><img src="https://img.shields.io/badge/E--mail-47433c?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <img src="https://img.shields.io/badge/Aberto_a_oportunidades-1d6b67?style=for-the-badge" alt="Aberto a oportunidades">
 </p>
 
 <br>
@@ -41,35 +41,35 @@ struct Thayllon {
 ## 🧰 Ferramentas
 
 <p>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffd43b" alt="Python">
-  <img src="https://img.shields.io/badge/Gurobi-ee3524?style=for-the-badge" alt="Gurobi">
-  <img src="https://img.shields.io/badge/CPLEX-0f62fe?style=for-the-badge&logo=ibm&logoColor=white" alt="CPLEX">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX">
-  <img src="https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Linux-fcc624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/C++-1d6b67?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-1d6b67?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Gurobi-b4501c?style=for-the-badge" alt="Gurobi">
+  <img src="https://img.shields.io/badge/CPLEX-b4501c?style=for-the-badge&logo=ibm&logoColor=white" alt="CPLEX">
+  <img src="https://img.shields.io/badge/NumPy-47433c?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Pandas-47433c?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Jupyter-47433c?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/LaTeX-47433c?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX">
+  <img src="https://img.shields.io/badge/Git-47433c?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Linux-47433c?style=for-the-badge&logo=linux&logoColor=white" alt="Linux">
 </p>
 
 ## 📈 Atividade
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=f97316&icon_color=c026d3&text_color=c9d1d9">
-    <img height="165" alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=fbf8f2&title_color=c2410c&icon_color=7c3aed&text_color=3b3a36">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=121518&title_color=e2804b&icon_color=55b5ab&text_color=c2bbad">
+    <img height="165" alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=f5f0e6&title_color=b4501c&icon_color=1d6b67&text_color=47433c">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=0d1117&title_color=f97316&text_color=c9d1d9">
-    <img height="165" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=fbf8f2&title_color=c2410c&text_color=3b3a36">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=121518&title_color=e2804b&text_color=c2bbad">
+    <img height="165" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=f5f0e6&title_color=b4501c&text_color=47433c">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=oBraganca&hide_border=true&background=0d1117&ring=e11d74&fire=f97316&currStreakNum=f0ebe0&currStreakLabel=f97316&sideNums=f0ebe0&sideLabels=9a948a&dates=9a948a&stroke=30363d">
-    <img alt="Sequência de contribuições" src="https://streak-stats.demolab.com?user=oBraganca&hide_border=true&background=fbf8f2&ring=e11d74&fire=f97316&currStreakNum=1d1b18&currStreakLabel=c2410c&sideNums=1d1b18&sideLabels=6b665c&dates=6b665c&stroke=dcd3c2">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=oBraganca&hide_border=true&background=121518&ring=55b5ab&fire=e2804b&currStreakNum=ebe5d9&currStreakLabel=e2804b&sideNums=ebe5d9&sideLabels=8c867a&dates=8c867a&stroke=2a3036">
+    <img alt="Sequência de contribuições" src="https://streak-stats.demolab.com?user=oBraganca&hide_border=true&background=f5f0e6&ring=1d6b67&fire=b4501c&currStreakNum=1d1b18&currStreakLabel=b4501c&sideNums=1d1b18&sideLabels=7a7366&dates=7a7366&stroke=dcd3c2">
   </picture>
 </p>
 
