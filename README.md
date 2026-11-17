@@ -15,20 +15,29 @@ Estudante de **Matemática Computacional na UFMG**, com pesquisa em **otimizaç�
 
 Transformo problemas de decisão em modelos matemáticos e os resolvo com o método adequado: **programação inteira mista** quando o exato é viável; **heurísticas e metaheurísticas** quando a escala exige — chegando ao ótimo ou a menos de 0,1% dele.
 
-```text
-  Modelo   P(thayllon)
-  ───────────────────────────────────────────────────────────────────
-  min   gap( solução , ótimo )          tempo computacional viável
+```mermaid
+flowchart LR
+  T(("Thayllon")):::me
+  T --> UFMG["Matemática Computacional<br/>UFMG"]:::base
+  T --> GOAL["Otimização combinatória<br/>GOAL · UFOP"]:::base
+  GOAL --> EX{{"exato"}}:::hub
+  GOAL --> HE{{"heurístico"}}:::hub
+  EX --> EX1["PLIM · Gurobi · CPLEX"]:::leaf
+  HE --> HE1["ILS · VNS · RVND · MCTS"]:::leaf
+  EX1 --> OPT["optHyrrigated<br/>ótimo em 3 de 4 instâncias"]:::res
+  HE1 --> OPT
+  OPT --> SBPO[("LVIII SBPO · 2026")]:::res
+  EX1 --> PED["Aceitação de pedidos<br/>ILS + EILS"]:::res
+  HE1 --> PED
+  T -.-> NEXT(["aberto a oportunidades"]):::open
 
-  s.a.  formação     = Matemática Computacional · UFMG
-        pesquisa     = otimização combinatória · GOAL / UFOP
-        exato        ∈ { PLIM , Gurobi , CPLEX }
-        heurístico   ∈ { ILS , VNS , RVND , MCTS , Lookahead }
-        linguagens   ∈ { C++ , Python }
-        foco         = representação da solução + avaliação O(1)
-                       + vizinhanças desenhadas para o problema
-  ───────────────────────────────────────────────────────────────────
-  status   OPTIMAL · aberto a oportunidades em PO, otimização e dados
+  classDef me   fill:#b4501c,stroke:#b4501c,color:#ffffff,font-weight:bold;
+  classDef base fill:#121518,stroke:#8c867a,color:#ebe5d9;
+  classDef hub  fill:#1d6b67,stroke:#55b5ab,color:#ffffff;
+  classDef leaf fill:#121518,stroke:#55b5ab,color:#ebe5d9;
+  classDef res  fill:#121518,stroke:#e2804b,color:#ebe5d9;
+  classDef open fill:#e2804b,stroke:#e2804b,color:#121518;
+  linkStyle default stroke:#8c867a,stroke-width:1.5px;
 ```
 
 ## 🔥 Em destaque
