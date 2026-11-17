@@ -15,17 +15,20 @@ Estudante de **Matemática Computacional na UFMG**, com pesquisa em **otimizaç�
 
 Transformo problemas de decisão em modelos matemáticos e os resolvo com o método adequado: **programação inteira mista** quando o exato é viável; **heurísticas e metaheurísticas** quando a escala exige — chegando ao ótimo ou a menos de 0,1% dele.
 
-```cpp
-struct Thayllon {
-    std::string formacao = "Matemática Computacional @ UFMG";
-    std::string pesquisa = "Otimização combinatória · GOAL/UFOP";
+```text
+  Modelo   P(thayllon)
+  ───────────────────────────────────────────────────────────────────
+  min   gap( solução , ótimo )          tempo computacional viável
 
-    std::vector<std::string> exato      = {"PLIM", "Gurobi", "CPLEX"};
-    std::vector<std::string> heuristico = {"ILS", "VNS", "RVND", "MCTS", "Lookahead"};
-
-    // o que mais pesa no resultado
-    std::string foco = "representação da solução + avaliação O(1) + vizinhanças do domínio";
-};
+  s.a.  formação     = Matemática Computacional · UFMG
+        pesquisa     = otimização combinatória · GOAL / UFOP
+        exato        ∈ { PLIM , Gurobi , CPLEX }
+        heurístico   ∈ { ILS , VNS , RVND , MCTS , Lookahead }
+        linguagens   ∈ { C++ , Python }
+        foco         = representação da solução + avaliação O(1)
+                       + vizinhanças desenhadas para o problema
+  ───────────────────────────────────────────────────────────────────
+  status   OPTIMAL · aberto a oportunidades em PO, otimização e dados
 ```
 
 ## 🔥 Em destaque
@@ -34,9 +37,16 @@ struct Thayllon {
   <img src="https://raw.githubusercontent.com/oBraganca/oBraganca/main/assets/opthyrrigated.svg" alt="optHyrrigated — ILS+RVND atinge o ótimo em soja (7,9 s), milho (7,4 s) e algodão (13,6 s) e fica a 0,08% do ótimo na cana-de-açúcar, com 540 dias (158,5 s)" width="100%">
 </p>
 
-- 📄 **Aplicação do ILS-RVND para o Problema de Irrigação utilizando Pivô Central** — LVIII SBPO, 2026.
-  Construtiva Lookahead, quatro vizinhanças do domínio e um vetor de margem hídrica que verifica a viabilidade de cada movimento em O(1).
-- 🏭 **Alocação de tarefas com aceitação de pedidos** — ILS com busca local substitute/drop, sequenciamento via RVND e integração com o modelo exato (EILS) em ambiente multiperíodo.
+**optHyrrigated** · C++ — irrigação por pivô central. Construtiva Lookahead, quatro vizinhanças do domínio combinadas via RVND dentro de um ILS, e um vetor de margem hídrica que verifica a viabilidade de cada movimento em O(1).
+
+**Alocação de tarefas com aceitação de pedidos** — ILS com busca local substitute/drop, sequenciamento via RVND e integração com o modelo exato (EILS) em ambiente multiperíodo.
+
+## 📄 Publicações
+
+| | Trabalho | Evento | Ano |
+|:-:|:--|:--|:-:|
+| 📄 | **Aplicação do ILS-RVND para o Problema de Irrigação utilizando Pivô Central**<br><sub>T. R. B. de Almeida, P. L. A. Munhoz · ótimo em 3 de 4 instâncias, gap de 0,08% na maior, em menos de 3 min</sub> | LVIII SBPO | 2026 |
+| 📝 | **ILS e EILS para o problema de alocação de tarefas com aceitação de pedidos em ambiente multiperíodo**<br><sub>T. R. B. de Almeida et al.</sub> | em preparação | 2026 |
 
 ## 🧰 Ferramentas
 
@@ -54,17 +64,6 @@ struct Thayllon {
 </p>
 
 ## 📈 Atividade
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=121518&title_color=e2804b&icon_color=55b5ab&text_color=c2bbad">
-    <img height="165" alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=oBraganca&show_icons=true&hide_border=true&hide_rank=true&bg_color=f5f0e6&title_color=b4501c&icon_color=1d6b67&text_color=47433c">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=121518&title_color=e2804b&text_color=c2bbad">
-    <img height="165" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oBraganca&layout=compact&hide_border=true&langs_count=6&bg_color=f5f0e6&title_color=b4501c&text_color=47433c">
-  </picture>
-</p>
 
 <p align="center">
   <picture>
